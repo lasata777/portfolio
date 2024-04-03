@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>advance selectors</title>
+        <style>
+            h2:hover{
+                color:red;
+                cursor:pointer;
+
+            }
+            .box{
+
+                height: 100px;
+                width: 100px;
+                background-color:salmon;
+                display:flex;
+                justify-content:center;
+
+
+            }
+            .box:hover{
+                background-color: pink;
+                border-radius:100% ;
+                /* transition: 2s ease all; */
+                /* height: 150px; */
+                /* width:120px; */
+                cursor: pointer;
+                /* margin-left:1rem; */
+                box-shadow:2px 2px 3px 1px coral;
+            }
+
+            p::before{
+                content: "Lorem";
+                font-size: 2rem;
+                color:salmon;
+            }
+
+            p::after{
+                content:"more.";
+               color:coral;
+            }
+            span{
+                color:red;
+                font-size: 2rem;
+            }
+
+            li:first-child{
+                color:red;
+            }
+
+            li:last-child{
+                color:red;
+            }
+            li:nth-child(3){
+                color: lightcoral;
+            }
+
+           img[alt="cloud"]{
+            height: 120px;
+            width: 120px;
+           }
+
+
+        </style>
+
+</head>
+            
+    
+    </p>
+    
+
+    <p> ipsum dolor sit amet consectetur adipisicing elit. Saepe consectetur aliquam <span>doloribus, rerum, veniam</span> alias minus cupiditate, quod ratione libero quasi dolorem in illo sed.</p>
+<div class="box">
+    <h2>hover me</h2>
+
+</div>
+
+
+
+
+<ol>
+    <li class="">UIUx</li>
+    <li>UIUx</li>
+    <li>UIUx</li>
+    <li>UIUx</li>
+    <li>UIUx</li>
+</ol>
+
+<img src="https://images.pexels.com/photos/1262302/pexels-photo-1262302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="cloud">
+<br><br>
+<img src="https://images.pexels.com/photos/1262302/pexels-photo-1262302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="cone">
+
+</body>
+</html>

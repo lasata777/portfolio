@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    </head>
+    <style>
+        .container{
+
+            border: 2px solid black;
+            height: 900px;
+            width:600px;
+           
+            position: relative;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+              font-size: 1rem;
+            color:white;
+            
+           
+            
+            
+        }
+        /* default position is static */
+        #box1{
+            background-color: rgb(170, 11, 136);
+             
+            position:static;
+       
+
+   }
+
+
+
+        #box2{
+            background-color: rgb(34, 7, 78);
+            position: relative;  
+
+        }
+        #box3{
+            background-color: rgb(12, 179, 48);
+             position: absolute;
+             right: 0;
+             bottom: 0;
+
+        }
+        #box4{
+            background-color: rgb(203, 231, 43);
+            position:fixed;
+        }
+        #box5{
+            background-color: rgb(201, 8, 8);
+             position: sticky;
+             top:0;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">static</div>
+        <div class="box" id="box2">relative</div>
+        <div class="box" id="box3">absolute</div>
+        <div class="box" id="box4">fixed</div>
+        <div class="box" id="box5">sticky</div>
+    </div>
+    
+</body>
+</html>

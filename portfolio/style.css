@@ -1,0 +1,241 @@
+/* external css  */
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family:"poppins", sans-serif;
+    flex-wrap: wrap;
+ 
+}
+main{
+    display: block;
+    unicode-bidi: isolate;
+}
+nav{
+    box-shadow: -1px 2px 5px 0px gray;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    color:hsl( 224 , 89%, 60%);
+    
+a{
+    text-decoration: none;
+}
+   
+
+
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right:5rem;
+    height: 4.5rem;
+    /* border: 2px solid black; */
+    font-weight: bold;
+    
+   
+  
+}
+ul{
+    justify-content: space-between;
+    display: flex;
+    
+}
+ul li{
+     list-style-type:none;
+     color:hsl( 224 , 89%, 60%);
+    
+     
+}
+ol li {
+    
+display:flex;
+
+    list-style-type: none;
+    color:hsl( 224 , 89%, 60%);
+    
+
+}
+
+
+
+.nav_liks{
+    width:47%;
+    
+}
+
+
+
+.home{
+    
+    row-gap: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+    
+   
+ h1{
+    margin:0;
+ }  
+
+
+.home_title{
+    font-size: 3.5rem;
+    margin:2.5rem;
+
+}
+
+.lasata{
+    color: hsl( 224 , 89%, 60%) ;
+
+}
+.button:hover{
+    background-color: blue;
+    cursor: pointer;
+    border-radius:1rem ;
+}
+
+.button{
+   
+        display: inline-block;
+        background-color: hsl( 224 , 89%, 60%);
+        color: #fff;
+        padding: 0.75rem 2.5rem;
+        font-weight:600;
+        border-radius: 0.5rem;
+        transition: 0.3s;
+        margin: 2rem;
+}
+
+.home_sociallinks{
+    margin-left: 2rem;
+
+}
+
+.socialicons{
+    color:hsl( 224 , 89%, 60%);
+    font-size: 1.5rem;
+    margin: 1rem;
+    
+
+}
+
+.profile_photo{
+    height: 350px;
+    width: 350px;
+    transition: 1s;
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+img[alt="women"]{
+  
+    
+}
+.section_title{
+
+    position: relative;
+    font-size: 1.25rem;
+    color:hsl( 224 , 89%, 60%);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.aboutpage{
+   display: flex;
+   justify-content: space-between;
+}
+.profilephoto{
+    height: 350px;
+    width: 1000px;
+    transition: 1s;
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 1rem;
+    overflow: hidden;
+    
+}
+.aboutskill{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.work_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2rem;
+}
+.work_img:hover{
+    transition:;
+}
+    
+.work_img{
+   
+    height: 350px;
+    width: 350px;
+    transition: 1s;
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 1rem;
+    overflow: hidden;
+    
+}
+
+.contact_2{
+   display: flex;
+   justify-content: center;
+   width:360px;
+   padding-top: 2rem;
+    
+    
+}
+.submit:hover{
+    background-color: blue;
+    cursor: pointer;
+    border-radius:1rem ;
+}
+.submit{
+    display: inline-block;
+    background-color: hsl( 224 , 89%, 60%);
+    color: #fff;
+    padding: 0.75rem 2.5rem;
+    font-weight:600;
+    border-radius: 0.5rem;
+    transition: 0.3s ;
+    margin: 2rem;
+    
+
+}
+.footer{
+    background-color: hsl( 224 , 56%, 12%);
+    text-align: center;
+    color: white;
+    padding: 1.5rem;
+    font-weight: 600;
+}
+
+.footer_title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.social_links{
+    margin-bottom:1rem;
+    
+}
+.social_icons{
+    color: white;
+    font-size: 1rem;
+    margin: 1rem;
+    
+
+}

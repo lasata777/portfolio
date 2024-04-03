@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 80px;
+    
+     background-color: aqua; 
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.nav_liks {
+    width: 40%;
+}
